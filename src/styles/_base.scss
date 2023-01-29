@@ -1,0 +1,32 @@
+$color-dark: #272727;
+$color-primary: #ffe990;
+
+$border: 2px solid #272727;
+$border-light: 2px solid #27272709;
+
+$font: 'Source Sans Pro', sans-serif;
+$content-heading: 400 2.4rem 'Source Sans Pro', sans-serif;
+$content-body: 1.8rem 'Source Sans Pro', sans-serif;
+$content-minor: 1.2rem 'Source Sans Pro', sans-serif;
+
+$screen-large: 1200px;
+$screen-medium: 1000px;
+$screen-small: 800px;
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+
+    @media screen and (max-width: $screen-medium) {
+        font-size: 55%;
+    }
+
+    @media screen and (max-width: $screen-small) {
+        font-size: 50%;
+    }
+}
+
+body {
+    margin: 0;
+    font-family: $font;
+}
